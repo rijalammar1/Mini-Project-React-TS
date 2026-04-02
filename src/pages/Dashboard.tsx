@@ -13,11 +13,8 @@ export default function Dashboard() {
         <Navbar setOpen={setOpen} />
 
         <div className="p-6">
-          <h2 className="text-2xl font-bold mb-2">Welcome to Dashboard 🚀</h2>
-          <p className="text-slate-400">
-            Ini halaman protected, sekarang udah dark mode biar keliatan lebih
-            mahal 😏
-          </p>
+          <h2 className="text-2xl font-bold mb-2">Welcome to Dashboard</h2>
+          <p className="text-slate-400">Ini adalah mini project saya</p>
         </div>
       </div>
     </div>

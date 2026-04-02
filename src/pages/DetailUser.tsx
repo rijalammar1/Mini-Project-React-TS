@@ -44,7 +44,7 @@ export default function DetailUser() {
           ) : (
             <div className="bg-[#111827] p-6 rounded-xl border border-slate-700 w-full max-w-md text-center">
               <img
-                src={user.avatar}
+                src={`https://images.weserv.nl/?url=${encodeURIComponent(user.avatar)}`}
                 className="w-24 h-24 rounded-full mx-auto mb-4"
               />
 
