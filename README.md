@@ -26,11 +26,9 @@ Project ini dibuat menggunakan **React + TypeScript + Vite** sebagai boilerplate
 
 ## Fitur Tambahan (Di luar requirement utama)
 
-- Routing SPA dengan **React Router v7**
 - Notifikasi interaktif menggunakan **react-hot-toast**
 - Styling menggunakan **TailwindCSS** dengan Vite plugin
 - Struktur project siap deploy ke **Vercel**, termasuk handling SPA routing dengan `vercel.json`
-- ESLint terkonfigurasi untuk TypeScript dan React Hooks, menjaga kode tetap rapi dan konsisten
 
 ---
 
