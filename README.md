@@ -27,7 +27,6 @@ Project ini dibuat menggunakan **React + TypeScript + Vite** sebagai boilerplate
 ## Fitur Tambahan (Di luar requirement utama)
 
 - Notifikasi interaktif menggunakan **react-hot-toast**
-- Styling menggunakan **TailwindCSS** dengan Vite plugin
 - Struktur project siap deploy ke **Vercel**, termasuk handling SPA routing dengan `vercel.json`
 
 ---
