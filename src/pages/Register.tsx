@@ -30,8 +30,7 @@ export default function Register() {
           <div>
             <h2 className="text-2xl font-bold">Register</h2>
             <p className="text-slate-500 text-sm mt-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-              facere!
+              Kalau mau register disini bray heheheheeh
             </p>
           </div>
 

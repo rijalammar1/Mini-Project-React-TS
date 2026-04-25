@@ -32,7 +32,7 @@ export default function Login() {
           <div>
             <h2 className="text-2xl font-bold">Login</h2>
             <p className="text-slate-500 text-sm mt-1">
-              Welcome back, please login to your account
+              Kalau mau login disini bray heheheheeh
             </p>
           </div>
 
