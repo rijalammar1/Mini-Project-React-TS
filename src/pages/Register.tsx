@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { register } from "../services/auth"
 import { Link, useNavigate } from "react-router-dom"
-import HeroBg from "../assets/bg-login.jpg"
+// import HeroBg from "../assets/bg-login.jpg"
 import { showError, showSuccess } from "../components/Toast"
 
 export default function Register() {
@@ -78,10 +78,10 @@ export default function Register() {
         </form>
       </div>
 
-      <div
+      {/* <div
         className="hidden lg:flex w-1/2 min-h-screen bg-cover bg-center"
         style={{ backgroundImage: `url(${HeroBg})` }}
-      />
+      /> */}
     </div>
   )
 }
