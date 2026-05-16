@@ -25,8 +25,8 @@ describe("ListUser page", () => {
       data: [
         {
           id: 1,
-          first_name: "Rijal",
-          last_name: "Ammar",
+          first_name: "Ammar",
+          last_name: "Rijal",
           avatar: "avatar.jpg",
         },
       ],
@@ -51,8 +51,8 @@ describe("ListUser page", () => {
       data: [
         {
           id: 1,
-          first_name: "Rijal",
-          last_name: "Ammar",
+          first_name: "Ammar",
+          last_name: "Rijal",
           avatar: "avatar.jpg",
         },
       ],
