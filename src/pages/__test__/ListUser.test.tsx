@@ -40,7 +40,7 @@ describe("ListUser page", () => {
     )
 
     await waitFor(() => {
-      expect(screen.getByText("Rijal Ammar")).toBeInTheDocument()
+      expect(screen.getByText("Ammar Rijal")).toBeInTheDocument()
     })
   })
 
@@ -65,7 +65,7 @@ describe("ListUser page", () => {
       </MemoryRouter>,
     )
 
-    const userCard = await screen.findByText("Rijal Ammar")
+    const userCard = await screen.findByText("Ammar Rijal")
 
     await user.click(userCard)
 
