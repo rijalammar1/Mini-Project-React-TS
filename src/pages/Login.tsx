@@ -2,7 +2,7 @@ import { useState } from "react"
 import { login } from "../services/auth"
 import { setToken } from "../routes/auth"
 import { useNavigate, Link } from "react-router-dom"
-import HeroBg from "../assets/bg-login.jpg"
+// import HeroBg from "../assets/bg-login.jpg"
 import { showError, showSuccess } from "../components/Toast"
 
 export default function Login() {
@@ -80,10 +80,10 @@ export default function Login() {
         </form>
       </div>
 
-      <div
+      {/* <div
         className="hidden lg:flex w-1/2 min-h-screen bg-cover bg-center"
         style={{ backgroundImage: `url(${HeroBg})` }}
-      />
+      /> */}
     </div>
   )
 }

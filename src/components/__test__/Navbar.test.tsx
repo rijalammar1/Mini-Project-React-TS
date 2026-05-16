@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
 import { MemoryRouter } from "react-router-dom"
+
 import Navbar from "../Navbar"
 
 describe("Navbar component", () => {
@@ -34,8 +35,19 @@ describe("Navbar component", () => {
     expect(screen.getByText("Detail User")).toBeInTheDocument()
   })
 
-  it("calls setOpen when menu button is clicked", async () => {
+  it("renders default title on unknown route", () => {
+    render(
+      <MemoryRouter initialEntries={["/random"]}>
+        <Navbar setOpen={jest.fn()} />
+      </MemoryRouter>,
+    )
+
+    expect(screen.getByText("Page")).toBeInTheDocument()
+  })
+
+  it("calls setOpen when menu button clicked", async () => {
     const user = userEvent.setup()
+
     const mockSetOpen = jest.fn()
 
     render(
